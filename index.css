@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: #F1F1F1;
+}
+
+.nav-title {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.navigation {
+    width: 280px;
+    height: 100vh;
+    color: #fff;
+    box-sizing: border-box;
+    position: fixed;
+    border-right: 3px solid #acacac;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 280px;
+    text-align: justify;
+}
+
+.navigation nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.3s;
+    color: #acacac;
+}
+
+hr {
+    border: 1px solid #acacac;
+}
+
+
+.navigation nav a:hover {
+    background-color: #333333;
+    color: #F1F1F1;
+}
+
+.navigation footer p {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table, td, th {
+    border: 2px solid #acacac;
+    padding: 10px;
+}
+
+thead {
+    text-align: center;
+}
+
+.credits {
+    color: #acacac;
+}
+
+footer nav a{
+    color: #2980b9;
+}
+
+h2{
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+.td-media {
+    width: 100%;
+}
+
+.list{
+    padding-left: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #707070;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #808080;
+  }
