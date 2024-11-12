@@ -145,9 +145,7 @@ select {
         top: 0;
         left: 0;
         height: 200px;
-        /* Make navigation full height */
         background-color: #F1F1F1;
-        /* Allow vertical scrolling */
         box-sizing: border-box;
         overflow: scroll;
         border-bottom: 2px solid black;
